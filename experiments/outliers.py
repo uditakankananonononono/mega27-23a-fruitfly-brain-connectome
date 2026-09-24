@@ -31,6 +31,13 @@ p_true = P[np.arange(len(y)), y]
 p_max = P.max(1)
 pred = P.argmax(1)
 margin = p_max - p_true
+# dump full distribution stats for threshold sensitivity
+thr = {}
+for pt, mg in ((0.2, 0.4), (0.2, 0.5), (0.2, 0.6), (0.3, 0.5), (0.1, 0.5)):
+    thr[f"p<{pt},margin>{mg}"] = int(((p_true < pt) & (margin > mg)).sum())
+json.dump(thr, open("results/threshold_sensitivity.json", "w"), indent=1)
+json.dump(dict(p_true=p_true.tolist(), margin=margin.tolist()),
+          open("results/flag_scores.json", "w"))
 # outlier: model confidently prefers another class
 out = np.where((p_true < 0.2) & (margin > 0.5))[0]
 cands = []

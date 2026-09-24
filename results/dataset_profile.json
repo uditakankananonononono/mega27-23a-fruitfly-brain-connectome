@@ -1,0 +1,26 @@
+{
+ "class_counts": {
+  "pre-DN-VNC": 476,
+  "sensory": 430,
+  "PN": 206,
+  "LHN": 202,
+  "DN-VNC": 182,
+  "DN-SEZ": 164,
+  "PN-somato": 152,
+  "KC": 144,
+  "LN": 110,
+  "MB-FBN": 108,
+  "pre-DN-SEZ": 102,
+  "CN": 100,
+  "MB-FFN": 54,
+  "RGN": 54,
+  "MBON": 48,
+  "ascending": 46
+ },
+ "mean_in_degree": 32.747866563227305,
+ "max_in_degree": 141,
+ "mean_out_degree": 32.747866563227305,
+ "max_out_degree": 151,
+ "total_synapses": 283070.0,
+ "feature_dim": 4
+}
