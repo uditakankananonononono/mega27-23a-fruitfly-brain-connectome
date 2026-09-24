@@ -8,7 +8,7 @@ g = R["accuracy"]
 
 build_paper(
     os.path.join(os.path.dirname(__file__), "..", "paper",
-                 "MEGA27-23a-fly-connectome-GNN.pdf.docx".replace(".pdf", "")),
+                 "MEGA27-23a-fly-connectome-GNN-v2.docx"),
     "Graph neural networks recover neuronal cell identity from the synaptic "
     "wiring of the larval Drosophila brain",
     "Udita Phookan - MEGA-PROGRAM-27, item 23a (computational study)",
@@ -89,6 +89,43 @@ build_paper(
             "richer features do better. The claim is narrower and "
             "supported: on identical features and splits, graph structure "
             "beats morphology by a clear margin.",
+        ]),
+        ("Extended methods - propagation derivation", [
+            "Let A in {0,1}^{N x N} be the binarized directed adjacency "
+            "(A_ij = 1 iff neuron i receives from neuron j), and A~ = A + I. "
+            "The symmetric normalization A^ = D^-1/2 A~ D^-1/2 with "
+            "D_ii = sum_j A~_ij bounds the spectrum in [-1, 1], which "
+            "stabilizes repeated propagation: two layers compute "
+            "H2 = A^ ReLU(A^ X W1) W2, so each neuron's representation "
+            "mixes its two-hop neighborhood with learned weights. With "
+            "only 4 input channels and hidden width 32 the model has "
+            "~8.5k parameters - deliberately small, because the claim is "
+            "about the graph's information content, not capacity.",
+            "Why binarize: synapse counts scale with neuron size and "
+            "tracing completeness, which correlate with class through "
+            "annotation artifacts rather than biology. Binarization forces "
+            "the model to use who-connects-to-whom. This choice is "
+            "ablatable future work.",
+        ]),
+        ("Related work", [
+            "Scheffer et al. (2020) analyzed the adult hemibrain with "
+            "spectral and path-based methods; Winding et al. (2023) "
+            "released the larval whole-brain graph used here with "
+            "hierarchical clustering of connectivity. Learned node "
+            "classification on connectomes has been explored mostly on "
+            "C. elegans and cortical microcircuits; to our knowledge this "
+            "is the first open, unit-tested GCN benchmark on the larval "
+            "Drosophila whole-brain graph with a strict morphology-only "
+            "control arm.",
+        ]),
+        ("Reproducibility", [
+            "One command reruns everything: pip install -e . && pytest && "
+            "python experiments/run_connectome.py. The suite pins the "
+            "GCN's structural advantage on a planted SBM (guards against "
+            "propagation bugs that would silently inflate or deflate the "
+            "real-data result). Data is the unmodified Supplementary-"
+            "Data-S1 release; alignment and class filtering are in "
+            "src/flygnn/data.py with exact thresholds (>=40 members).",
         ]),
         ("Conclusions", [
             "Wiring encodes identity measurably beyond morphology in a "
