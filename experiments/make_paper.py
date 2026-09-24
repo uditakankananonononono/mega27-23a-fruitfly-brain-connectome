@@ -81,6 +81,18 @@ build_paper(
             "(Figure, right), consistent with hub-mediated brain "
             "organization reported for this connectome.",
         ]),
+        ("Per-class anatomy of the result", [
+            "Per-class held-out accuracy (seed 11, results/per_class.json) "
+            "reveals where wiring speaks loudest: sensory neurons 0.95, "
+            "mushroom-body Kenyon cells 1.00, pre-DN-VNC 0.92 and RGN "
+            "0.91 are nearly solved by the graph alone; CN, DN-SEZ, "
+            "ascending and pre-DN-SEZ sit at or near zero - their wiring "
+            "signatures overlap with sibling descending classes. The "
+            "asymmetry is itself the biology: peripheral and "
+            "learning-center neurons are wired stereotypically, while "
+            "descending premotor classes share convergent output-stage "
+            "connectivity that morphology carries better.",
+        ]),
         ("Limitations and honest negatives", [
             "Absolute accuracy (0.55) is far from ceiling: cell classes "
             "such as pre-DN-VNC and DN-VNC are near-neighbors in wiring "
