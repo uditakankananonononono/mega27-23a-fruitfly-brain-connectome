@@ -1,0 +1,9 @@
+setup.py
+src/flygnn/__init__.py
+src/flygnn/data.py
+src/flygnn/models.py
+src/flygnn.egg-info/PKG-INFO
+src/flygnn.egg-info/SOURCES.txt
+src/flygnn.egg-info/dependency_links.txt
+src/flygnn.egg-info/top_level.txt
+tests/test_models.py
