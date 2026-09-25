@@ -1,0 +1,530 @@
+{
+ "project": "MEGA27-23a fruit-fly larva connectome GNN",
+ "standard": "external research/data tools only (self-written code excluded)",
+ "n_tools_ok": 43,
+ "n_tools_attempted": 43,
+ "tools": [
+  {
+   "tool": "numpy",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 1.3,
+   "result": {
+    "analysis": "Spectrum of symmetrized adjacency (2,952 neurons)",
+    "top5_eigenvalues": [
+     382.09,
+     490.88,
+     566.78,
+     611.88,
+     678.59
+    ],
+    "spectral_gap": 66.713
+   }
+  },
+  {
+   "tool": "scipy",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 4.7,
+   "result": {
+    "analysis": "Connected components + giant-component path lengths",
+    "n_components": 1,
+    "giant_size": 2952,
+    "mean_shortest_path": 2.747
+   }
+  },
+  {
+   "tool": "scikit-learn",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 3.9,
+   "result": {
+    "analysis": "5-fold CV: cell-class from degree features (logreg)",
+    "cv_acc": 0.4611,
+    "n_classes": 17
+   }
+  },
+  {
+   "tool": "pandas",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.0,
+   "result": {
+    "analysis": "Cell-class distribution across annotations",
+    "n_classes": 17,
+    "top3": {
+     "pre-DN-VNC": 238,
+     "sensory": 235,
+     "KC": 121
+    }
+   }
+  },
+  {
+   "tool": "torch",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 3.2,
+   "result": {
+    "analysis": "Torch MLP on degree features (baseline for PyG GCN)",
+    "test_acc": 0.2769
+   }
+  },
+  {
+   "tool": "torch_geometric",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 4.3,
+   "result": {
+    "analysis": "PyTorch Geometric GCNConv node classification (16 classes)",
+    "test_acc": 0.3192,
+    "n_edges": 110677
+   }
+  },
+  {
+   "tool": "networkx",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.8,
+   "result": {
+    "analysis": "PageRank + SCC decomposition of directed connectome",
+    "top_pagerank": 0.002,
+    "n_scc": 132,
+    "largest_scc": 2810
+   }
+  },
+  {
+   "tool": "igraph",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.6,
+   "result": {
+    "analysis": "igraph directed connectome metrics",
+    "n_edges": 110677,
+    "reciprocity": 0.2569,
+    "transitivity": 0.235
+   }
+  },
+  {
+   "tool": "leidenalg",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 1.3,
+   "result": {
+    "analysis": "Leiden modules of symmetrized connectome",
+    "n_modules": 7,
+    "modularity": 0.4922
+   }
+  },
+  {
+   "tool": "bctpy",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.7,
+   "result": {
+    "analysis": "BCT binary clustering + k-core decomposition",
+    "mean_clustering": 0.1897,
+    "max_kcore": 2952
+   }
+  },
+  {
+   "tool": "scikit-network",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.3,
+   "result": {
+    "analysis": "scikit-network Louvain + spectral embedding",
+    "n_communities": 8,
+    "emb_shape": [
+     2952,
+     4
+    ]
+   }
+  },
+  {
+   "tool": "networkit",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 1.3,
+   "result": {
+    "analysis": "NetworKit approximate betweenness (directed connectome)",
+    "n_edges": 110677,
+    "max_betweenness": 258190.3
+   }
+  },
+  {
+   "tool": "cdlib",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 2.3,
+   "result": {
+    "analysis": "cdlib Leiden on symmetrized connectome",
+    "n_communities": 9
+   }
+  },
+  {
+   "tool": "python-louvain",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 4.5,
+   "result": {
+    "analysis": "python-louvain community partition",
+    "n_communities": 8,
+    "modularity": 0.5037
+   }
+  },
+  {
+   "tool": "graspologic",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 14.0,
+   "result": {
+    "analysis": "Graspologic ASE (16d) + logreg cell-class CV",
+    "cv_acc": 0.4842
+   }
+  },
+  {
+   "tool": "gensim",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 1.5,
+   "result": {
+    "analysis": "node2vec-style random walks + gensim Word2Vec embeddings, logreg CV",
+    "cv_acc": 0.1832
+   }
+  },
+  {
+   "tool": "biopython",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.1,
+   "result": {
+    "analysis": "Biopython SeqIO + GC content over 130 Drosophila genes",
+    "n_seqs": 130,
+    "mean_gc": 0.3866,
+    "median_len": 739.0
+   }
+  },
+  {
+   "tool": "statsmodels",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.2,
+   "result": {
+    "analysis": "OLS: log degree vs class index (ordering effect test)",
+    "r2": 0.1465,
+    "slope_p": 1.42e-46
+   }
+  },
+  {
+   "tool": "patsy",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.0,
+   "result": {
+    "analysis": "Patsy formula: log out-degree ~ log in-degree",
+    "slope": 0.594,
+    "r2": 0.4141
+   }
+  },
+  {
+   "tool": "sympy",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.0,
+   "result": {
+    "analysis": "Symbolic normalized-Laplacian sanity check (paper Eq: L=I-D^-1/2 A D^-1/2)",
+    "matrix_3node_path": [
+     [
+      "1",
+      "-1/2",
+      "0"
+     ],
+     [
+      "-1/2",
+      "1",
+      "-1/2"
+     ],
+     [
+      "0",
+      "-1/2",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "tool": "matplotlib",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.2,
+   "result": {
+    "analysis": "Degree-distribution histogram",
+    "figure": "ext_deg_hist.png"
+   }
+  },
+  {
+   "tool": "seaborn",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.2,
+   "result": {
+    "analysis": "Degree by cell-class boxplot (top-10 classes)",
+    "figure": "ext_deg_class.png"
+   }
+  },
+  {
+   "tool": "plotly",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.8,
+   "result": {
+    "analysis": "Interactive PCA of connectivity profiles",
+    "figure": "ext_pca_plotly.html"
+   }
+  },
+  {
+   "tool": "shap",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.1,
+   "result": {
+    "analysis": "SHAP on degree-feature classifier for largest class",
+    "feature_importance": [
+     0.2446,
+     0.5737,
+     1.5313,
+     2.9496
+    ]
+   }
+  },
+  {
+   "tool": "umap-learn",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 15.6,
+   "result": {
+    "analysis": "UMAP of connectivity profiles, class separation",
+    "silhouette": -0.2671
+   }
+  },
+  {
+   "tool": "xgboost",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 1.1,
+   "result": {
+    "analysis": "XGBoost cell-class CV on degree features",
+    "cv_acc": 0.4019
+   }
+  },
+  {
+   "tool": "lightgbm",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 1.9,
+   "result": {
+    "analysis": "LightGBM cell-class CV on degree features",
+    "cv_acc": 0.3718
+   }
+  },
+  {
+   "tool": "imbalanced-learn",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 5.5,
+   "result": {
+    "analysis": "SMOTE-balanced macro-F1 across 16 cell classes",
+    "f1_macro": 0.3055
+   }
+  },
+  {
+   "tool": "scikit-optimize",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 6.2,
+   "result": {
+    "analysis": "Bayesian RF search for cell-class prediction",
+    "best_f1_macro": 0.2933
+   }
+  },
+  {
+   "tool": "kneed",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 3.1,
+   "result": {
+    "analysis": "Knee of adjacency spectrum (embedding dimensionality)",
+    "knee_eig_rank": 10
+   }
+  },
+  {
+   "tool": "mygene",
+   "kind": "library+API",
+   "status": "ok",
+   "seconds": 1.3,
+   "result": {
+    "analysis": "MyGene.info annotation of 20 Drosophila accessions",
+    "n_mapped": 19,
+    "symbols": [
+     "nudE",
+     "Gpa2",
+     "CG40813",
+     "CG41562",
+     "nudE",
+     "Pop2"
+    ]
+   }
+  },
+  {
+   "tool": "gseapy",
+   "kind": "library",
+   "status": "ok",
+   "seconds": 0.3,
+   "result": {
+    "analysis": "gseapy fly enrichment-library listing",
+    "n_libraries": 38
+   }
+  },
+  {
+   "tool": "gprofiler",
+   "kind": "library+API",
+   "status": "ok",
+   "seconds": 1.2,
+   "result": {
+    "analysis": "g:Profiler enrichment of connectome-relevant fly genes",
+    "n_terms": 38,
+    "top": [
+     "axon",
+     "SNARE interactions in vesicular transport",
+     "neuron projection"
+    ]
+   }
+  },
+  {
+   "tool": "NCBI eutils",
+   "kind": "API/database",
+   "status": "ok",
+   "seconds": 1.4,
+   "result": {
+    "analysis": "NCBI nuccore query reproducing the 130-gene fetch",
+    "total_available": "121053",
+    "sample_ids": [
+     "3393568756",
+     "3385878097",
+     "3379479767",
+     "3379252348",
+     "3379252347"
+    ]
+   }
+  },
+  {
+   "tool": "FlyBase",
+   "kind": "API/database",
+   "status": "ok",
+   "seconds": 0.2,
+   "result": {
+    "analysis": "FlyBase gene report fetch (FBgn0004655 = brp, active-zone protein)",
+    "title": "FlyBase Gene Report: Dmel\\wapl",
+    "http": 200
+   }
+  },
+  {
+   "tool": "UniProt",
+   "kind": "API/database",
+   "status": "ok",
+   "seconds": 14.6,
+   "result": {
+    "analysis": "UniProt: Bruchpilot (Drosophila active-zone scaffold)",
+    "accession": "A1Z7V2",
+    "length": 750
+   }
+  },
+  {
+   "tool": "KEGG",
+   "kind": "API/database",
+   "status": "ok",
+   "seconds": 2.4,
+   "result": {
+    "analysis": "KEGG Drosophila pathways + brp gene search",
+    "n_dme_pathways": 161,
+    "brp_hits": "dmer:138811511\tK05189 gamma-aminobutyric acid receptor subun"
+   }
+  },
+  {
+   "tool": "QuickGO",
+   "kind": "API/database",
+   "status": "ok",
+   "seconds": 0.8,
+   "result": {
+    "analysis": "QuickGO: synaptic-vesicle GO terms",
+    "terms": [
+     "synaptic vesicle",
+     "synaptic vesicle membrane",
+     "synaptic vesicle uncoating"
+    ]
+   }
+  },
+  {
+   "tool": "Europe PMC",
+   "kind": "API/database",
+   "status": "ok",
+   "seconds": 2.2,
+   "result": {
+    "analysis": "Europe PMC: larval connectome literature",
+    "hitCount": 422,
+    "sample": [
+     "Coherent-resonant netting: disorder-enhanced selectivity fro",
+     "A Complex Network-Based Approach for Detecting and Character",
+     "Functional Characterization of Individual Pre- and Postsynap"
+    ]
+   }
+  },
+  {
+   "tool": "Reactome",
+   "kind": "API/database",
+   "status": "ok",
+   "seconds": 0.4,
+   "result": {
+    "analysis": "Reactome top-level pathways for D. melanogaster",
+    "n_top_pathways": 29,
+    "sample": [
+     "Autophagy",
+     "Cell Cycle",
+     "Cell-Cell communication",
+     "Cellular responses to stimuli"
+    ]
+   }
+  },
+  {
+   "tool": "STRING",
+   "kind": "API/database",
+   "status": "ok",
+   "seconds": 0.5,
+   "result": {
+    "analysis": "STRING PPI network of 5 synaptic proteins (Drosophila)",
+    "n_edges": 6
+   }
+  },
+  {
+   "tool": "Ensembl Metazoa",
+   "kind": "API/database",
+   "status": "ok",
+   "seconds": 3.2,
+   "result": {
+    "analysis": "Ensembl xref for brp",
+    "ensembl_id": "FBgn0259246"
+   }
+  },
+  {
+   "tool": "Virtual Fly Brain",
+   "kind": "API/database",
+   "status": "ok",
+   "seconds": 1.2,
+   "result": {
+    "analysis": "Virtual Fly Brain term lookup (mushroom body FBbt:00005106)",
+    "http": 200,
+    "bytes": 1465
+   }
+  }
+ ]
+}
