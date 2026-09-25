@@ -1,0 +1,652 @@
+[
+ {
+  "accession": "PZ770414.1",
+  "desc": "PZ770414.1 Drosophila melanogaster voucher Atherigona_orientalis_DOGR-SOP-01-2026 cytochrome c oxida",
+  "length": 549
+ },
+ {
+  "accession": "PZ770413.1",
+  "desc": "PZ770413.1 Drosophila melanogaster voucher Drosophila_melanogaster_DOGR-SOP-02-2026 cytochrome c oxi",
+  "length": 618
+ },
+ {
+  "accession": "DS485423.1",
+  "desc": "DS485423.1 Drosophila melanogaster chromosome Y 211000022278760 sequence",
+  "length": 1144
+ },
+ {
+  "accession": "OZ481787.1",
+  "desc": "OZ481787.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 744
+ },
+ {
+  "accession": "OZ481782.1",
+  "desc": "OZ481782.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 739
+ },
+ {
+  "accession": "OZ481730.1",
+  "desc": "OZ481730.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 739
+ },
+ {
+  "accession": "OZ481160.1",
+  "desc": "OZ481160.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 744
+ },
+ {
+  "accession": "OZ481139.1",
+  "desc": "OZ481139.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 741
+ },
+ {
+  "accession": "OZ481085.1",
+  "desc": "OZ481085.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 739
+ },
+ {
+  "accession": "OZ481062.1",
+  "desc": "OZ481062.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 487
+ },
+ {
+  "accession": "OZ481641.1",
+  "desc": "OZ481641.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 738
+ },
+ {
+  "accession": "OZ481627.1",
+  "desc": "OZ481627.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 739
+ },
+ {
+  "accession": "OZ481553.1",
+  "desc": "OZ481553.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 739
+ },
+ {
+  "accession": "OZ481522.1",
+  "desc": "OZ481522.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 739
+ },
+ {
+  "accession": "OZ481468.1",
+  "desc": "OZ481468.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 743
+ },
+ {
+  "accession": "OZ481467.1",
+  "desc": "OZ481467.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 742
+ },
+ {
+  "accession": "OZ481464.1",
+  "desc": "OZ481464.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 739
+ },
+ {
+  "accession": "OZ481447.1",
+  "desc": "OZ481447.1 Drosophila melanogaster mitochondrial partial COI gene for cytochrome oxidase subunit 1",
+  "length": 744
+ },
+ {
+  "accession": "PX994967.1",
+  "desc": "PX994967.1 Drosophila melanogaster Tbh-PD (Tbh) mRNA, partial cds",
+  "length": 1536
+ },
+ {
+  "accession": "PX936386.1",
+  "desc": "PX936386.1 Drosophila melanogaster isolate Dm19 cytochrome c oxidase subunit I (COX1) gene, partial ",
+  "length": 658
+ },
+ {
+  "accession": "PP145078.1",
+  "desc": "PP145078.1 Drosophila melanogaster isolate LA2021_L3.13F cytochrome c oxidase subunit I (COX1) gene,",
+  "length": 656
+ },
+ {
+  "accession": "PP145077.1",
+  "desc": "PP145077.1 Drosophila melanogaster isolate LS2021_L2.13R cytochrome c oxidase subunit I (COX1) gene,",
+  "length": 654
+ },
+ {
+  "accession": "PP145076.1",
+  "desc": "PP145076.1 Drosophila melanogaster isolate LS2021_L2.13F cytochrome c oxidase subunit I (COX1) gene,",
+  "length": 661
+ },
+ {
+  "accession": "PP145075.1",
+  "desc": "PP145075.1 Drosophila melanogaster isolate LS2021_L2.110F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 653
+ },
+ {
+  "accession": "PP145074.1",
+  "desc": "PP145074.1 Drosophila melanogaster isolate LS2021_L2.527F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 650
+ },
+ {
+  "accession": "PP145068.1",
+  "desc": "PP145068.1 Drosophila melanogaster isolate LS2021_L2.521R cytochrome c oxidase subunit I (COX1) gene",
+  "length": 652
+ },
+ {
+  "accession": "PP145067.1",
+  "desc": "PP145067.1 Drosophila melanogaster isolate LS2021_L2.521F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 661
+ },
+ {
+  "accession": "PP145066.1",
+  "desc": "PP145066.1 Drosophila melanogaster isolate LS2021_L2.520F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 658
+ },
+ {
+  "accession": "PP145065.1",
+  "desc": "PP145065.1 Drosophila melanogaster isolate LS2021_L2.518F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 658
+ },
+ {
+  "accession": "PP145064.1",
+  "desc": "PP145064.1 Drosophila melanogaster isolate LS2021_L2.516R cytochrome c oxidase subunit I (COX1) gene",
+  "length": 655
+ },
+ {
+  "accession": "PP145061.1",
+  "desc": "PP145061.1 Drosophila melanogaster isolate LS2021_L2.514R cytochrome c oxidase subunit I (COX1) gene",
+  "length": 653
+ },
+ {
+  "accession": "PP145060.1",
+  "desc": "PP145060.1 Drosophila melanogaster isolate LS2021_L2.514F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 548
+ },
+ {
+  "accession": "PP145059.1",
+  "desc": "PP145059.1 Drosophila melanogaster isolate LS2021_L2.513R cytochrome c oxidase subunit I (COX1) gene",
+  "length": 653
+ },
+ {
+  "accession": "PP145058.1",
+  "desc": "PP145058.1 Drosophila melanogaster isolate LS2021_L2.512F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 658
+ },
+ {
+  "accession": "PP145057.1",
+  "desc": "PP145057.1 Drosophila melanogaster isolate LS2021_L2.509R cytochrome c oxidase subunit I (COX1) gene",
+  "length": 655
+ },
+ {
+  "accession": "PP145056.1",
+  "desc": "PP145056.1 Drosophila melanogaster isolate LS2021_L2.509F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 658
+ },
+ {
+  "accession": "PP145055.1",
+  "desc": "PP145055.1 Drosophila melanogaster isolate LS2021_L2.507R cytochrome c oxidase subunit I (COX1) gene",
+  "length": 653
+ },
+ {
+  "accession": "PP145054.1",
+  "desc": "PP145054.1 Drosophila melanogaster isolate LS2021_L2.505R cytochrome c oxidase subunit I (COX1) gene",
+  "length": 653
+ },
+ {
+  "accession": "PP145053.1",
+  "desc": "PP145053.1 Drosophila melanogaster isolate LS2021_L2.505F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 657
+ },
+ {
+  "accession": "PP145052.1",
+  "desc": "PP145052.1 Drosophila melanogaster isolate LS2021_L2.504F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 657
+ },
+ {
+  "accession": "PP145051.1",
+  "desc": "PP145051.1 Drosophila melanogaster isolate LS2021_L2.503F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 658
+ },
+ {
+  "accession": "PP145050.1",
+  "desc": "PP145050.1 Drosophila melanogaster isolate LS2021_L2.502R cytochrome c oxidase subunit I (COX1) gene",
+  "length": 656
+ },
+ {
+  "accession": "PP145049.1",
+  "desc": "PP145049.1 Drosophila melanogaster isolate LS2021_L2.502F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 657
+ },
+ {
+  "accession": "PP145048.1",
+  "desc": "PP145048.1 Drosophila melanogaster isolate LS2021_L2.501R cytochrome c oxidase subunit I (COX1) gene",
+  "length": 653
+ },
+ {
+  "accession": "PP145047.1",
+  "desc": "PP145047.1 Drosophila melanogaster isolate LS2021_L2.501F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 659
+ },
+ {
+  "accession": "PP145046.1",
+  "desc": "PP145046.1 Drosophila melanogaster isolate LS2021_L2.500F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 658
+ },
+ {
+  "accession": "PP145045.1",
+  "desc": "PP145045.1 Drosophila melanogaster isolate LS2021_L2.499F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 664
+ },
+ {
+  "accession": "PP145044.1",
+  "desc": "PP145044.1 Drosophila melanogaster isolate LS2021_L2.497F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 663
+ },
+ {
+  "accession": "PP145043.1",
+  "desc": "PP145043.1 Drosophila melanogaster isolate LS2021_L2.216F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 653
+ },
+ {
+  "accession": "PP145040.1",
+  "desc": "PP145040.1 Drosophila melanogaster isolate GES2021_G1.151F cytochrome c oxidase subunit I (COX1) gen",
+  "length": 659
+ },
+ {
+  "accession": "PP145039.1",
+  "desc": "PP145039.1 Drosophila melanogaster isolate GES2021_G1.134R cytochrome c oxidase subunit I (COX1) gen",
+  "length": 653
+ },
+ {
+  "accession": "PP145038.1",
+  "desc": "PP145038.1 Drosophila melanogaster isolate GES2021_G1.134F cytochrome c oxidase subunit I (COX1) gen",
+  "length": 658
+ },
+ {
+  "accession": "PP145035.1",
+  "desc": "PP145035.1 Drosophila melanogaster isolate GES2021_G1.107R cytochrome c oxidase subunit I (COX1) gen",
+  "length": 656
+ },
+ {
+  "accession": "PP145034.1",
+  "desc": "PP145034.1 Drosophila melanogaster isolate GES2021_G1.107F cytochrome c oxidase subunit I (COX1) gen",
+  "length": 660
+ },
+ {
+  "accession": "PP145033.1",
+  "desc": "PP145033.1 Drosophila melanogaster isolate DA2021_D3.176R cytochrome c oxidase subunit I (COX1) gene",
+  "length": 650
+ },
+ {
+  "accession": "PP145031.1",
+  "desc": "PP145031.1 Drosophila melanogaster isolate DS2021_D2.54F cytochrome c oxidase subunit I (COX1) gene,",
+  "length": 548
+ },
+ {
+  "accession": "PP145030.1",
+  "desc": "PP145030.1 Drosophila melanogaster isolate DS2021_D2.49R cytochrome c oxidase subunit I (COX1) gene,",
+  "length": 658
+ },
+ {
+  "accession": "PP145029.1",
+  "desc": "PP145029.1 Drosophila melanogaster isolate DS2021_D2.49F cytochrome c oxidase subunit I (COX1) gene,",
+  "length": 655
+ },
+ {
+  "accession": "PP145020.1",
+  "desc": "PP145020.1 Drosophila melanogaster isolate DS2021_D2.150F cytochrome c oxidase subunit I (COX1) gene",
+  "length": 655
+ },
+ {
+  "accession": "PX393084.1",
+  "desc": "PX393084.1 Drosophila melanogaster strain Canton S GAR1 (Gar1) mRNA, complete cds",
+  "length": 708
+ },
+ {
+  "accession": "PX242178.1",
+  "desc": "PX242178.1 Drosophila melanogaster strain Dahomey odorant receptor 43a (Or43a) gene, complete cds",
+  "length": 1713
+ },
+ {
+  "accession": "PX242177.1",
+  "desc": "PX242177.1 Drosophila melanogaster strain Canton S odorant receptor 43a (Or43a) gene, complete cds",
+  "length": 1712
+ },
+ {
+  "accession": "PP725553.1",
+  "desc": "PP725553.1 Drosophila melanogaster isolate CITHDm3 cytochrome c oxidase subunit I (COX1) gene, parti",
+  "length": 574
+ },
+ {
+  "accession": "PP725474.1",
+  "desc": "PP725474.1 Drosophila melanogaster isolate CITHDm2 cytochrome c oxidase subunit I (COX1) gene, parti",
+  "length": 704
+ },
+ {
+  "accession": "PP725420.1",
+  "desc": "PP725420.1 Drosophila melanogaster isolate CITHDm1 cytochrome c oxidase subunit I (COX1) gene, parti",
+  "length": 669
+ },
+ {
+  "accession": "PQ857573.1",
+  "desc": "PQ857573.1 Drosophila melanogaster strain BDSC 362 synaptosomal-associated protein 29kDa (SNAP29) ge",
+  "length": 1012
+ },
+ {
+  "accession": "PV153587.1",
+  "desc": "PV153587.1 Drosophila melanogaster isolate n2 cytochrome c oxidase subunit I (COX1) gene, partial cd",
+  "length": 617
+ },
+ {
+  "accession": "PV018823.1",
+  "desc": "PV018823.1 Drosophila melanogaster isolate G11 cytochrome c oxidase subunit I (COX1) gene, partial c",
+  "length": 600
+ },
+ {
+  "accession": "PV018822.1",
+  "desc": "PV018822.1 Drosophila melanogaster isolate G7 cytochrome c oxidase subunit I (COX1) gene, partial cd",
+  "length": 360
+ },
+ {
+  "accession": "PV018821.1",
+  "desc": "PV018821.1 Drosophila melanogaster isolate G6 cytochrome c oxidase subunit I (COX1) gene, partial cd",
+  "length": 608
+ },
+ {
+  "accession": "PV018820.1",
+  "desc": "PV018820.1 Drosophila melanogaster isolate G5 cytochrome c oxidase subunit I (COX1) gene, partial cd",
+  "length": 540
+ },
+ {
+  "accession": "PV018819.1",
+  "desc": "PV018819.1 Drosophila melanogaster isolate N4 cytochrome c oxidase subunit I (COX1) gene, partial cd",
+  "length": 300
+ },
+ {
+  "accession": "PV018818.1",
+  "desc": "PV018818.1 Drosophila melanogaster isolate N1 cytochrome c oxidase subunit I (COX1) gene, partial cd",
+  "length": 420
+ },
+ {
+  "accession": "PV018815.1",
+  "desc": "PV018815.1 Drosophila melanogaster isolate C7 cytochrome c oxidase subunit I (COX1) gene, partial cd",
+  "length": 571
+ },
+ {
+  "accession": "PQ740394.1",
+  "desc": "PQ740394.1 Drosophila melanogaster isolate Gp-4 cytochrome c oxidase subunit I (COX1) gene, partial ",
+  "length": 671
+ },
+ {
+  "accession": "PP035800.1",
+  "desc": "PP035800.1 Drosophila melanogaster voucher Cam diptericin A (dptA) gene, complete cds",
+  "length": 321
+ },
+ {
+  "accession": "NM_001104099.3",
+  "desc": "NM_001104099.3 Drosophila melanogaster nudE, transcript variant C (nudE), mRNA",
+  "length": 1604
+ },
+ {
+  "accession": "NM_001144458.3",
+  "desc": "NM_001144458.3 Drosophila melanogaster nudE, transcript variant D (nudE), mRNA",
+  "length": 1339
+ },
+ {
+  "accession": "NM_001426711.1",
+  "desc": "NM_001426711.1 Drosophila melanogaster sterile alpha and armadillo motif, transcript variant M (Sarm",
+  "length": 934
+ },
+ {
+  "accession": "NM_001426710.1",
+  "desc": "NM_001426710.1 Drosophila melanogaster muscleblind (mbl), transcript variant Z, mRNA",
+  "length": 1750
+ },
+ {
+  "accession": "NM_001169958.3",
+  "desc": "NM_001169958.3 Drosophila melanogaster Pop2, transcript variant D (Pop2), mRNA",
+  "length": 1531
+ },
+ {
+  "accession": "NM_001414139.1",
+  "desc": "NM_001414139.1 Drosophila melanogaster boule (bol), transcript variant H, mRNA",
+  "length": 596
+ },
+ {
+  "accession": "NM_001414149.1",
+  "desc": "NM_001414149.1 Drosophila melanogaster sulfateless (sfl), transcript variant D, mRNA",
+  "length": 1067
+ },
+ {
+  "accession": "NM_001414100.1",
+  "desc": "NM_001414100.1 Drosophila melanogaster uncharacterized protein (CG42658), mRNA",
+  "length": 821
+ },
+ {
+  "accession": "NM_001414074.1",
+  "desc": "NM_001414074.1 Drosophila melanogaster cGAS-like receptor 2 (cGlr2), transcript variant F, mRNA",
+  "length": 1713
+ },
+ {
+  "accession": "NM_001414080.1",
+  "desc": "NM_001414080.1 Drosophila melanogaster speck, transcript variant C (speck), mRNA",
+  "length": 1630
+ },
+ {
+  "accession": "NM_001414112.1",
+  "desc": "NM_001414112.1 Drosophila melanogaster phosphodiesterase 8, transcript variant R (Pde8), mRNA",
+  "length": 792
+ },
+ {
+  "accession": "NM_001414111.1",
+  "desc": "NM_001414111.1 Drosophila melanogaster phosphodiesterase 8, transcript variant Q (Pde8), mRNA",
+  "length": 679
+ },
+ {
+  "accession": "NM_001414110.1",
+  "desc": "NM_001414110.1 Drosophila melanogaster phosphodiesterase 8, transcript variant P (Pde8), mRNA",
+  "length": 1234
+ },
+ {
+  "accession": "NM_001414063.1",
+  "desc": "NM_001414063.1 Drosophila melanogaster ionotropic receptor 56b, transcript variant C (Ir56b), partia",
+  "length": 1487
+ },
+ {
+  "accession": "NM_001414062.1",
+  "desc": "NM_001414062.1 Drosophila melanogaster ionotropic receptor 56b, transcript variant B (Ir56b), partia",
+  "length": 1487
+ },
+ {
+  "accession": "NM_001414085.1",
+  "desc": "NM_001414085.1 Drosophila melanogaster muscleblind (mbl), transcript variant Y, mRNA",
+  "length": 1606
+ },
+ {
+  "accession": "NM_001414084.1",
+  "desc": "NM_001414084.1 Drosophila melanogaster muscleblind (mbl), transcript variant X, mRNA",
+  "length": 1002
+ },
+ {
+  "accession": "NM_001414083.1",
+  "desc": "NM_001414083.1 Drosophila melanogaster muscleblind (mbl), transcript variant W, mRNA",
+  "length": 1488
+ },
+ {
+  "accession": "NM_001414082.1",
+  "desc": "NM_001414082.1 Drosophila melanogaster muscleblind (mbl), transcript variant V, mRNA",
+  "length": 654
+ },
+ {
+  "accession": "NM_001414113.1",
+  "desc": "NM_001414113.1 Drosophila melanogaster uncharacterized protein (CG46492), mRNA",
+  "length": 1194
+ },
+ {
+  "accession": "NM_001414064.1",
+  "desc": "NM_001414064.1 Drosophila melanogaster uncharacterized protein, transcript variant P (CG17574), mRNA",
+  "length": 926
+ },
+ {
+  "accession": "NM_001414061.1",
+  "desc": "NM_001414061.1 Drosophila melanogaster baramicin B, transcript variant C (BaraB), mRNA",
+  "length": 830
+ },
+ {
+  "accession": "NM_001414103.1",
+  "desc": "NM_001414103.1 Drosophila melanogaster uncharacterized protein (CG43646), partial mRNA",
+  "length": 447
+ },
+ {
+  "accession": "NM_143004.4",
+  "desc": "NM_143004.4 Drosophila melanogaster uncharacterized protein (CG13615), mRNA",
+  "length": 1213
+ },
+ {
+  "accession": "NM_001414138.1",
+  "desc": "NM_001414138.1 Drosophila melanogaster MSA micropeptide (MSAmiP), transcript variant B, mRNA",
+  "length": 1754
+ },
+ {
+  "accession": "NM_001414137.1",
+  "desc": "NM_001414137.1 Drosophila melanogaster MSA micropeptide (MSAmiP), transcript variant A, mRNA",
+  "length": 1754
+ },
+ {
+  "accession": "NM_001110620.3",
+  "desc": "NM_001110620.3 Drosophila melanogaster uncharacterized protein (CG41562), mRNA",
+  "length": 760
+ },
+ {
+  "accession": "NM_001414133.1",
+  "desc": "NM_001414133.1 Drosophila melanogaster uncharacterized protein (CG46522), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414132.1",
+  "desc": "NM_001414132.1 Drosophila melanogaster uncharacterized protein (CG46521), mRNA",
+  "length": 802
+ },
+ {
+  "accession": "NM_001414131.1",
+  "desc": "NM_001414131.1 Drosophila melanogaster uncharacterized protein (CG46520), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414130.1",
+  "desc": "NM_001414130.1 Drosophila melanogaster uncharacterized protein (CG46519), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414129.1",
+  "desc": "NM_001414129.1 Drosophila melanogaster uncharacterized protein (CG46518), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414128.1",
+  "desc": "NM_001414128.1 Drosophila melanogaster uncharacterized protein (CG46517), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414127.1",
+  "desc": "NM_001414127.1 Drosophila melanogaster uncharacterized protein (CG46516), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414126.1",
+  "desc": "NM_001414126.1 Drosophila melanogaster uncharacterized protein (CG46515), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414125.1",
+  "desc": "NM_001414125.1 Drosophila melanogaster uncharacterized protein (CG46514), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414124.1",
+  "desc": "NM_001414124.1 Drosophila melanogaster uncharacterized protein (CG46513), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414123.1",
+  "desc": "NM_001414123.1 Drosophila melanogaster uncharacterized protein (CG46512), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414122.1",
+  "desc": "NM_001414122.1 Drosophila melanogaster uncharacterized protein (CG46511), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414121.1",
+  "desc": "NM_001414121.1 Drosophila melanogaster uncharacterized protein (CG46510), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414120.1",
+  "desc": "NM_001414120.1 Drosophila melanogaster uncharacterized protein (CG46509), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414119.1",
+  "desc": "NM_001414119.1 Drosophila melanogaster uncharacterized protein (CG46508), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414118.1",
+  "desc": "NM_001414118.1 Drosophila melanogaster uncharacterized protein (CG46507), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414117.1",
+  "desc": "NM_001414117.1 Drosophila melanogaster uncharacterized protein (CG46506), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414116.1",
+  "desc": "NM_001414116.1 Drosophila melanogaster uncharacterized protein (CG46505), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001414115.1",
+  "desc": "NM_001414115.1 Drosophila melanogaster uncharacterized protein (CG46504), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_001110601.3",
+  "desc": "NM_001110601.3 Drosophila melanogaster uncharacterized protein (CG40813), mRNA",
+  "length": 803
+ },
+ {
+  "accession": "NM_132558.4",
+  "desc": "NM_132558.4 Drosophila melanogaster uncharacterized protein (CG11356), partial mRNA",
+  "length": 852
+ },
+ {
+  "accession": "NM_001110584.3",
+  "desc": "NM_001110584.3 Drosophila melanogaster glycoprotein hormone alpha 2 (Gpa2), partial mRNA",
+  "length": 407
+ },
+ {
+  "accession": "NM_001300202.2",
+  "desc": "NM_001300202.2 Drosophila melanogaster uncharacterized protein, transcript variant D (CG4074), mRNA",
+  "length": 1175
+ },
+ {
+  "accession": "NM_140992.4",
+  "desc": "NM_140992.4 Drosophila melanogaster uncharacterized protein, transcript variant C (CG4074), mRNA",
+  "length": 1040
+ },
+ {
+  "accession": "NM_168828.3",
+  "desc": "NM_168828.3 Drosophila melanogaster CMP-sialic acid synthase (Csas), mRNA",
+  "length": 802
+ },
+ {
+  "accession": "NM_001382166.1",
+  "desc": "NM_001382166.1 Drosophila melanogaster uncharacterized protein (CG46462), mRNA",
+  "length": 572
+ },
+ {
+  "accession": "NM_001382152.1",
+  "desc": "NM_001382152.1 Drosophila melanogaster uncharacterized protein (CG46435), mRNA",
+  "length": 1827
+ }
+]
