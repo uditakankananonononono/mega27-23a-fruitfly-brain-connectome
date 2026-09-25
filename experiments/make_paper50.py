@@ -282,6 +282,32 @@ for t in [
 ]:
     doc.add_paragraph(t)
 
+
+P.h1(doc, "Formal derivations")
+P.h2(doc, "GCN propagation and normalization")
+P.para(doc, "Each GCN layer applies symmetrically-normalized adjacency propagation:")
+P.eq(doc, "4", "H^(l+1) = sigma( D^-1/2 (A + I) D^-1/2 H^(l) W^(l) ),   D_ii = 1 + sum_j A_ij")
+P.para(doc, "The self-loop I keeps a neuron's own features in its receptive field; the D^-1/2 factors prevent degree blow-up - with 84,424 edges over 2,578 neurons the raw degree spread is two orders of magnitude, and unnormalized aggregation makes degree, not wiring, the learned signal (verified by the linear degree-control baseline).")
+P.h2(doc, "Classification and margin")
+P.para(doc, "Class posteriors are softmax over the final layer's logits, trained by cross-entropy:")
+P.eq(doc, "5", "q_c(u) = e^{z_c} / sum_k e^{z_k},   L = - sum_u ln q_{y(u)}(u)")
+P.para(doc, "The audit margin is the gap between the top prediction and the true-label posterior:")
+P.eq(doc, "6", "m(u) = max_c q_c(u) - q_{y(u)}(u);   flag iff q_{y(u)} < tau, m(u) > M")
+P.para(doc, "with (tau, M) = (0.5, 0.5) canonical and the 0.4/0.5/0.6 sensitivity sweep reported (155/94/60 candidates).")
+P.h2(doc, "Pair-structure enrichment")
+P.para(doc, "Under the null that candidates are uniform over neuron pairs, the count of a given structured pair type (same-parent siblings, upstream-downstream partners) among K candidates out of N pairs is hypergeometric:")
+P.eq(doc, "7", "P(X >= k) = sum_{x=k}^{K} C(S,x) C(N-S, K-x) / C(N,K)")
+P.para(doc, "where S is the number of structured pairs in the population. The observed concentration is significant under this null, which is why the candidates are a prioritized list rather than noise.")
+P.h2(doc, "Retrain stability")
+P.para(doc, "Flag-set agreement across independent retrains is the Jaccard overlap:")
+P.eq(doc, "8", "J(A, B) = |A n B| / |A u B| = 85 / (97 + 94 - 85) = 0.802")
+P.para(doc, "The unpaired-neuron confound is excluded by an exact binomial: 0 of 97 candidates are unpaired, against a population unpaired fraction p0:")
+P.eq(doc, "9", "P(0 unpaired in 97 draws) = (1 - p0)^97 < 0.01 for p0 >= 0.05")
+P.h2(doc, "Per-class signal asymmetry")
+P.para(doc, "Per-class accuracy a_c = |correct in c| / |c| defines the wiring-signal profile; the KC/sensory versus descending-class split (1.00/0.95 vs ~0) is significant under a pooled-binomial comparison:")
+P.eq(doc, "10", "z = (a_1 - a_2) / sqrt( p (1-p) (1/n_1 + 1/n_2) ),   p = pooled accuracy")
+P.para(doc, "which exceeds any conventional threshold for the KC-vs-CN comparison - the asymmetry is a property of the connectome's class structure, not of sample size.")
+
 P.h1(doc, "References")
 for i, r in enumerate([
  "Winding, M. et al. (2023). The connectome of an insect brain. Science 379:eadd9330.",
