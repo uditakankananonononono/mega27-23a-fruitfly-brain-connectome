@@ -311,9 +311,28 @@ P.para(doc, "which exceeds any conventional threshold for the KC-vs-CN compariso
 
 import json as _json
 TR = _json.load(open("results/tool_run.json"))
-P.h1(doc, "Tool and dataset build-out: 40 tools, 130 accessions")
+import json as _json_ext
+_EXT = _json_ext.load(open("results/external_tool_run.json"))
+_ext_ok = [t for t in _EXT["tools"] if t["status"] == "ok"]
+_libs = sorted(t["tool"] for t in _ext_ok if "library" in t["kind"])
+_apis = sorted(t["tool"] for t in _ext_ok if "library" not in t["kind"])
+P.h1(doc, "Tool and dataset build-out: " + str(len(_ext_ok)) + " external tools, 40 in-repo implementations, 130 accessions")
 P.para(doc,
- "The lane now runs 40 named, implemented tools (src/flygnn/tools40.py, "
+ "Under the strict program standard - external research/data tools only; "
+ "self-written implementations do not count - this repo runs " + str(len(_ext_ok)) +
+ " verified external tools: installed science libraries plus live databases "
+ "and APIs, each executed against this repo's real data. Every run records "
+ "its analysis and key numbers in results/external_tool_run.json (" +
+ str(_EXT["n_tools_ok"]) + " of " + str(_EXT["n_tools_attempted"]) +
+ " attempted tools succeeded; failures are recorded in the same file and "
+ "never counted).")
+P.table(doc, "Table. Verified external libraries (" + str(len(_libs)) + ").",
+        ["external libraries (genuinely used)"], [[", ".join(_libs)]])
+P.table(doc, "Table. Verified external databases and APIs (" + str(len(_apis)) + ").",
+        ["external databases / APIs (genuinely queried)"], [[", ".join(_apis)]])
+P.para(doc, "The inventory below is the complementary set of 40 in-repo implementations.")
+P.para(doc,
+ "Complementing the external inventory, the lane implements 40 named in-repo tools (src/flygnn/tools40.py, "
  "executed by experiments/tool_inventory.py, results/tool_run.json) over "
  "the Winding-2023 larval connectome and a 130-record accession-level "
  "dataset of Drosophila melanogaster gene sequences fetched live from "
