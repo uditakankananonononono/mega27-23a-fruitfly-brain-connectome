@@ -18,8 +18,10 @@ def test_reciprocity_zero_on_cycles():
     assert GRAPH_TOOLS["reciprocity"](toy()) == 0.0
 
 def test_wcc_two_components():
-    r = GRAPH_TOOLS["wcc"](toy())
+    A = toy(); A[0, 3] = 0  # remove the bridge -> two 3-cycles
+    r = GRAPH_TOOLS["wcc"](A)
     assert r["n_wcc"] == 2 and r["largest"] == 3
+    assert GRAPH_TOOLS["wcc"](toy())["n_wcc"] == 1  # bridged -> one
 
 def test_pagerank_sums_to_one():
     pr = GRAPH_TOOLS["pagerank"](toy())
