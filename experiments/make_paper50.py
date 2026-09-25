@@ -491,6 +491,6 @@ for path in ("src/flygnn/data.py", "src/flygnn/models.py", "experiments/outliers
         r.font.name = "Courier New"; r.font.size = _Pt(8)
         p.paragraph_format.space_after = _Pt(0)
 
-doc.save("paper/MEGA27-23a-50p.docx")
+P.save(doc, "paper/MEGA27-23a-50p.docx")
 words = sum(len(p.text.split()) for p in doc.paragraphs)
 print("saved, words:", words)
