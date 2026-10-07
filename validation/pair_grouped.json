@@ -1,0 +1,43 @@
+{
+  "note": "Post-outcome, single split seed (11), descriptive only. Mates kept on one side of a class-stratified ~60/40 split. Not part of the frozen protocol.",
+  "n_nodes": 2578,
+  "nodes_with_mate": 2442,
+  "n_train": 1549,
+  "n_test": 1029,
+  "test_with_mate_in_train": 0,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "accuracy": {
+    "gcn": {
+      "mean": 0.5293164885001619,
+      "sd": 0.003993789441508938,
+      "runs": [
+        0.5247813411078717,
+        0.5344995140913509,
+        0.5286686103012633
+      ]
+    },
+    "cnn": {
+      "mean": 0.43990929705215426,
+      "sd": 0.013046343094008582,
+      "runs": [
+        0.4518950437317784,
+        0.446064139941691,
+        0.4217687074829932
+      ]
+    },
+    "linear": {
+      "mean": 0.42597991577583416,
+      "sd": 0.0012120691243193815,
+      "runs": [
+        0.42565597667638483,
+        0.42759961127308066,
+        0.42468415937803694
+      ]
+    }
+  },
+  "baseline_gate_pass": true
+}
