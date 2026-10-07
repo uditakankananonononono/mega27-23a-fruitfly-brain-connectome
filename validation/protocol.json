@@ -1,0 +1,40 @@
+{
+  "caveat": "Historical results and candidate counts were known before this protocol. Same dataset, same node split, no independent new holdout. Gate copied from historical code; cannot establish pre-outcome freezing or strict promotion. Transductive graph and morphology use all nodes; bilateral pairs are not grouped, so pair leakage remains possible. Full-label nomination is descriptive, not held-out validation or confirmed misannotation. Initialization is now seeded before model construction, unlike historical runner. No tuning or retry based on the rerun outcome.",
+  "environment": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "python": "3.10.12",
+    "torch": "2.14.1+cpu"
+  },
+  "epochs": 250,
+  "gate": "PASS iff GCN mean test accuracy > CNN mean + population SD AND > linear mean + population SD, and >=1 full-label descriptive candidate with p_annotated<0.2 and margin>0.5. No minimum count tied to the historical 97. No strict promotion.",
+  "input_sha256": {
+    "data/Supplementary-Data-S1/all-all_connectivity_matrix.csv": "94d51a821217048acf711f4feb71693a8487f2547540c6f2f25896c60e2348e3",
+    "data/Supplementary-Data-S1/annotations.csv": "477250fc559684f0e898a12016f41221bfa320012e378ab7ae8c5125c7776f7e",
+    "data/Supplementary-Data-S1/inputs.csv": "a42d206abe2963dd99f2edef9bad3dfa5e6b0b36ec1c87d99aafd21432a45851",
+    "data/Supplementary-Data-S1/outputs.csv": "01cb2aeebb5b78bb36dabddd8220a3b5ba3fc6ce728b7860bdcaaee44f091276",
+    "src/flygnn/data.py": "b53a09c124c35cf22ebb8c329c9ada39376442ec978c802f6494d8640a39eeb9",
+    "src/flygnn/models.py": "ed2d9c119e72d45c23bd51875883f64910c73d986e0074a4ce91ad8f879b4a67",
+    "validation/run_locked.py": "71e86c2f11ae0f0da617088ffe6e715da5caf0cb90114d7294649446472d5831",
+    "validation/split.json": "ab9d3bbfa048dd57d0674755d645f98de6eb8359e040c320e071ca412f94a9a1"
+  },
+  "learning_rate": 0.02,
+  "margin_gt": 0.5,
+  "min_class": 40,
+  "nomination_seed": 11,
+  "p_annotated_lt": 0.2,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "source_commit": "a574fe797e4f269a6152fee09101381e157c1dbc",
+  "split_rule": "class-stratified node split; sorted classes; NumPy default_rng(11); train first floor(0.6*n_class), minimum 1; rest test",
+  "split_seed": 11,
+  "split_sha256": "2d786e24e656d3d920f7a0c688cfbe582086c783e3c030302fca2bd5a8f16d06",
+  "status": "POST_OUTCOME_REVALIDATION_NOT_PREREGISTRATION",
+  "threads": 2,
+  "train_fraction": 0.6,
+  "version": 1,
+  "weight_decay": 0.0005
+}
