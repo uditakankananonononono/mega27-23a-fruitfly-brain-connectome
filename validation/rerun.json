@@ -1,0 +1,738 @@
+{
+  "protocol_sha256": "8b0792932787bb87aaa13410434f0cd147656a07a35e1a9938c95991da37c046",
+  "source_commit": "a574fe797e4f269a6152fee09101381e157c1dbc",
+  "classes": [
+    "CN",
+    "DN-SEZ",
+    "DN-VNC",
+    "KC",
+    "LHN",
+    "LN",
+    "MB-FBN",
+    "MB-FFN",
+    "MBON",
+    "PN",
+    "PN-somato",
+    "RGN",
+    "ascending",
+    "pre-DN-SEZ",
+    "pre-DN-VNC",
+    "sensory"
+  ],
+  "n_nodes": 2578,
+  "n_train": 1541,
+  "n_test": 1037,
+  "runs": [
+    {
+      "seed": 11,
+      "gcn": {
+        "accuracy": 0.5486981677917069,
+        "macro_f1": 0.3706371484985052
+      },
+      "cnn": {
+        "accuracy": 0.4416586306653809,
+        "macro_f1": 0.30620050231553664
+      },
+      "linear": {
+        "accuracy": 0.420443587270974,
+        "macro_f1": 0.214112341727494
+      }
+    },
+    {
+      "seed": 22,
+      "gcn": {
+        "accuracy": 0.5486981677917069,
+        "macro_f1": 0.362698183586027
+      },
+      "cnn": {
+        "accuracy": 0.4455159112825458,
+        "macro_f1": 0.3078738906189852
+      },
+      "linear": {
+        "accuracy": 0.43105110896817744,
+        "macro_f1": 0.22636315993435685
+      }
+    },
+    {
+      "seed": 33,
+      "gcn": {
+        "accuracy": 0.5409836065573771,
+        "macro_f1": 0.3609556993162177
+      },
+      "cnn": {
+        "accuracy": 0.4426229508196721,
+        "macro_f1": 0.30457792291468
+      },
+      "linear": {
+        "accuracy": 0.42430086788813887,
+        "macro_f1": 0.2187246415652922
+      }
+    }
+  ],
+  "accuracy": {
+    "gcn": {
+      "mean": 0.5461266473802636,
+      "sd": 0.003636679041782303
+    },
+    "cnn": {
+      "mean": 0.44326583092253297,
+      "sd": 0.0016390290946939193
+    },
+    "linear": {
+      "mean": 0.4252651880424301,
+      "sd": 0.004383857826096385
+    }
+  },
+  "baseline_gate_pass": true,
+  "nomination_gate_pass": true,
+  "frozen_gate_pass": true,
+  "n_candidates": 92,
+  "candidates": [
+    {
+      "body_id": 10263287,
+      "annotated": "DN-SEZ",
+      "predicted": "sensory",
+      "p_annotated": 0.005271590314805508,
+      "margin": 0.9894372820854187
+    },
+    {
+      "body_id": 12740290,
+      "annotated": "PN",
+      "predicted": "sensory",
+      "p_annotated": 3.685610863612965e-05,
+      "margin": 0.9887287616729736
+    },
+    {
+      "body_id": 17698681,
+      "annotated": "DN-SEZ",
+      "predicted": "sensory",
+      "p_annotated": 0.03215319663286209,
+      "margin": 0.9328283667564392
+    },
+    {
+      "body_id": 19470184,
+      "annotated": "DN-SEZ",
+      "predicted": "sensory",
+      "p_annotated": 0.018061354756355286,
+      "margin": 0.9637705683708191
+    },
+    {
+      "body_id": 17951049,
+      "annotated": "DN-SEZ",
+      "predicted": "sensory",
+      "p_annotated": 0.004513533320277929,
+      "margin": 0.9909636974334717
+    },
+    {
+      "body_id": 2432564,
+      "annotated": "PN",
+      "predicted": "sensory",
+      "p_annotated": 0.00022860331228002906,
+      "margin": 0.9623756408691406
+    },
+    {
+      "body_id": 4595609,
+      "annotated": "ascending",
+      "predicted": "sensory",
+      "p_annotated": 0.006605911534279585,
+      "margin": 0.6997244954109192
+    },
+    {
+      "body_id": 2512602,
+      "annotated": "PN",
+      "predicted": "RGN",
+      "p_annotated": 0.00216512568295002,
+      "margin": 0.6413748264312744
+    },
+    {
+      "body_id": 17423125,
+      "annotated": "DN-SEZ",
+      "predicted": "DN-VNC",
+      "p_annotated": 0.07192005962133408,
+      "margin": 0.6573898792266846
+    },
+    {
+      "body_id": 3234817,
+      "annotated": "LN",
+      "predicted": "KC",
+      "p_annotated": 0.0005900619435124099,
+      "margin": 0.9954036474227905
+    },
+    {
+      "body_id": 3420915,
+      "annotated": "PN",
+      "predicted": "sensory",
+      "p_annotated": 0.050487399101257324,
+      "margin": 0.6569467186927795
+    },
+    {
+      "body_id": 10079731,
+      "annotated": "PN-somato",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.029484080150723457,
+      "margin": 0.5949954986572266
+    },
+    {
+      "body_id": 9051500,
+      "annotated": "PN-somato",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.02559521049261093,
+      "margin": 0.6904789805412292
+    },
+    {
+      "body_id": 3732322,
+      "annotated": "DN-SEZ",
+      "predicted": "sensory",
+      "p_annotated": 0.024240408092737198,
+      "margin": 0.9511692523956299
+    },
+    {
+      "body_id": 16856539,
+      "annotated": "MB-FBN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.03786204382777214,
+      "margin": 0.8062347769737244
+    },
+    {
+      "body_id": 9057043,
+      "annotated": "MB-FBN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.03433619439601898,
+      "margin": 0.7443498969078064
+    },
+    {
+      "body_id": 9423829,
+      "annotated": "MB-FBN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.07043024152517319,
+      "margin": 0.7231388688087463
+    },
+    {
+      "body_id": 16561284,
+      "annotated": "PN-somato",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.018390338867902756,
+      "margin": 0.7722243666648865
+    },
+    {
+      "body_id": 9612903,
+      "annotated": "pre-DN-SEZ",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.01802893541753292,
+      "margin": 0.6907901167869568
+    },
+    {
+      "body_id": 18106257,
+      "annotated": "PN-somato",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.0277902502566576,
+      "margin": 0.5537373423576355
+    },
+    {
+      "body_id": 10553248,
+      "annotated": "DN-VNC",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.06447356939315796,
+      "margin": 0.5011473894119263
+    },
+    {
+      "body_id": 15514582,
+      "annotated": "PN-somato",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.07263845205307007,
+      "margin": 0.561360239982605
+    },
+    {
+      "body_id": 11037238,
+      "annotated": "LHN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.01993299089372158,
+      "margin": 0.6964987516403198
+    },
+    {
+      "body_id": 7719118,
+      "annotated": "LHN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.027211038395762444,
+      "margin": 0.6360118389129639
+    },
+    {
+      "body_id": 6143930,
+      "annotated": "pre-DN-VNC",
+      "predicted": "PN",
+      "p_annotated": 0.0007299957796931267,
+      "margin": 0.757057785987854
+    },
+    {
+      "body_id": 15571194,
+      "annotated": "LN",
+      "predicted": "KC",
+      "p_annotated": 0.0008281900663860142,
+      "margin": 0.9933103919029236
+    },
+    {
+      "body_id": 6317793,
+      "annotated": "DN-SEZ",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.0148612754419446,
+      "margin": 0.5228303074836731
+    },
+    {
+      "body_id": 17379420,
+      "annotated": "DN-VNC",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.06789878010749817,
+      "margin": 0.5209239721298218
+    },
+    {
+      "body_id": 17123466,
+      "annotated": "LHN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.017698651179671288,
+      "margin": 0.7578127980232239
+    },
+    {
+      "body_id": 18500915,
+      "annotated": "CN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.040632713586091995,
+      "margin": 0.5338122844696045
+    },
+    {
+      "body_id": 16846902,
+      "annotated": "CN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.020504048094153404,
+      "margin": 0.7523210048675537
+    },
+    {
+      "body_id": 9409359,
+      "annotated": "CN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.07030230760574341,
+      "margin": 0.5035308003425598
+    },
+    {
+      "body_id": 19786464,
+      "annotated": "CN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.07624701410531998,
+      "margin": 0.5553591251373291
+    },
+    {
+      "body_id": 17108278,
+      "annotated": "PN-somato",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.020819924771785736,
+      "margin": 0.6095381379127502
+    },
+    {
+      "body_id": 14329745,
+      "annotated": "CN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.03863322362303734,
+      "margin": 0.7409087419509888
+    },
+    {
+      "body_id": 14495367,
+      "annotated": "CN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.04626636579632759,
+      "margin": 0.6924968361854553
+    },
+    {
+      "body_id": 9061235,
+      "annotated": "CN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.022559059783816338,
+      "margin": 0.736933171749115
+    },
+    {
+      "body_id": 10682660,
+      "annotated": "MB-FBN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.01060444489121437,
+      "margin": 0.9216212630271912
+    },
+    {
+      "body_id": 7058243,
+      "annotated": "MB-FFN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.021156685426831245,
+      "margin": 0.7772003412246704
+    },
+    {
+      "body_id": 16851577,
+      "annotated": "DN-VNC",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.11184103041887283,
+      "margin": 0.5422873497009277
+    },
+    {
+      "body_id": 16340977,
+      "annotated": "DN-SEZ",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.013131360523402691,
+      "margin": 0.7287070155143738
+    },
+    {
+      "body_id": 15548844,
+      "annotated": "DN-VNC",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.0957912877202034,
+      "margin": 0.608389139175415
+    },
+    {
+      "body_id": 16848497,
+      "annotated": "MB-FFN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.02662653848528862,
+      "margin": 0.5024433135986328
+    },
+    {
+      "body_id": 16561660,
+      "annotated": "DN-VNC",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.16631919145584106,
+      "margin": 0.5837295651435852
+    },
+    {
+      "body_id": 10865025,
+      "annotated": "DN-SEZ",
+      "predicted": "sensory",
+      "p_annotated": 0.05396975949406624,
+      "margin": 0.6387345790863037
+    },
+    {
+      "body_id": 8877795,
+      "annotated": "LN",
+      "predicted": "sensory",
+      "p_annotated": 0.046193212270736694,
+      "margin": 0.6548402309417725
+    },
+    {
+      "body_id": 7557604,
+      "annotated": "pre-DN-VNC",
+      "predicted": "sensory",
+      "p_annotated": 0.00553895765915513,
+      "margin": 0.5424336791038513
+    },
+    {
+      "body_id": 2597151,
+      "annotated": "pre-DN-VNC",
+      "predicted": "sensory",
+      "p_annotated": 0.0028531677089631557,
+      "margin": 0.5300667881965637
+    },
+    {
+      "body_id": 15618614,
+      "annotated": "CN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.0234295055270195,
+      "margin": 0.6207372546195984
+    },
+    {
+      "body_id": 8007556,
+      "annotated": "MB-FFN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.01658203825354576,
+      "margin": 0.8830606937408447
+    },
+    {
+      "body_id": 7865696,
+      "annotated": "PN",
+      "predicted": "KC",
+      "p_annotated": 0.057753439992666245,
+      "margin": 0.8274083733558655
+    },
+    {
+      "body_id": 16340998,
+      "annotated": "MB-FFN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.02188926748931408,
+      "margin": 0.8235759735107422
+    },
+    {
+      "body_id": 15639294,
+      "annotated": "DN-VNC",
+      "predicted": "sensory",
+      "p_annotated": 0.002139138523489237,
+      "margin": 0.9569362998008728
+    },
+    {
+      "body_id": 10922020,
+      "annotated": "LHN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.016802867874503136,
+      "margin": 0.7528499364852905
+    },
+    {
+      "body_id": 13365464,
+      "annotated": "CN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.06158086657524109,
+      "margin": 0.6598109006881714
+    },
+    {
+      "body_id": 13652117,
+      "annotated": "DN-VNC",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.08844342082738876,
+      "margin": 0.6446413397789001
+    },
+    {
+      "body_id": 13849557,
+      "annotated": "pre-DN-VNC",
+      "predicted": "PN",
+      "p_annotated": 0.004206710495054722,
+      "margin": 0.7112952470779419
+    },
+    {
+      "body_id": 3805641,
+      "annotated": "LN",
+      "predicted": "sensory",
+      "p_annotated": 0.08015774935483932,
+      "margin": 0.5541690587997437
+    },
+    {
+      "body_id": 11329998,
+      "annotated": "CN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.05322781577706337,
+      "margin": 0.6967950463294983
+    },
+    {
+      "body_id": 16424131,
+      "annotated": "DN-SEZ",
+      "predicted": "DN-VNC",
+      "p_annotated": 0.08800692856311798,
+      "margin": 0.6076250672340393
+    },
+    {
+      "body_id": 7851153,
+      "annotated": "PN",
+      "predicted": "KC",
+      "p_annotated": 0.09590473026037216,
+      "margin": 0.5962681770324707
+    },
+    {
+      "body_id": 12199095,
+      "annotated": "MB-FFN",
+      "predicted": "sensory",
+      "p_annotated": 0.0002420020173303783,
+      "margin": 0.5615256428718567
+    },
+    {
+      "body_id": 4541081,
+      "annotated": "DN-SEZ",
+      "predicted": "DN-VNC",
+      "p_annotated": 0.08206377923488617,
+      "margin": 0.6252946853637695
+    },
+    {
+      "body_id": 8216541,
+      "annotated": "DN-SEZ",
+      "predicted": "DN-VNC",
+      "p_annotated": 0.11203054338693619,
+      "margin": 0.5767616033554077
+    },
+    {
+      "body_id": 3913620,
+      "annotated": "CN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.05840339884161949,
+      "margin": 0.5378794074058533
+    },
+    {
+      "body_id": 17535542,
+      "annotated": "pre-DN-SEZ",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.0199124813079834,
+      "margin": 0.6037057638168335
+    },
+    {
+      "body_id": 4849988,
+      "annotated": "PN-somato",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.027294939383864403,
+      "margin": 0.6233111619949341
+    },
+    {
+      "body_id": 8496618,
+      "annotated": "DN-VNC",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.08995398879051208,
+      "margin": 0.5378094911575317
+    },
+    {
+      "body_id": 4185530,
+      "annotated": "PN-somato",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.03159763664007187,
+      "margin": 0.6294685006141663
+    },
+    {
+      "body_id": 4144377,
+      "annotated": "MB-FBN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.04661336541175842,
+      "margin": 0.6557117700576782
+    },
+    {
+      "body_id": 7574701,
+      "annotated": "MB-FBN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.031761132180690765,
+      "margin": 0.77360999584198
+    },
+    {
+      "body_id": 4180774,
+      "annotated": "MB-FBN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.055034130811691284,
+      "margin": 0.6038804054260254
+    },
+    {
+      "body_id": 17639824,
+      "annotated": "DN-VNC",
+      "predicted": "RGN",
+      "p_annotated": 0.06308049708604813,
+      "margin": 0.5757542848587036
+    },
+    {
+      "body_id": 17340973,
+      "annotated": "PN-somato",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.034281838685274124,
+      "margin": 0.5069290995597839
+    },
+    {
+      "body_id": 15028907,
+      "annotated": "PN-somato",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.027536949142813683,
+      "margin": 0.6028950214385986
+    },
+    {
+      "body_id": 15478720,
+      "annotated": "MB-FFN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.020596113055944443,
+      "margin": 0.7826122045516968
+    },
+    {
+      "body_id": 17173922,
+      "annotated": "PN-somato",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.03009079396724701,
+      "margin": 0.565610945224762
+    },
+    {
+      "body_id": 16561429,
+      "annotated": "LN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 3.978402310167439e-05,
+      "margin": 0.6930031776428223
+    },
+    {
+      "body_id": 5327961,
+      "annotated": "PN",
+      "predicted": "sensory",
+      "p_annotated": 0.09076059609651566,
+      "margin": 0.5068238973617554
+    },
+    {
+      "body_id": 17031293,
+      "annotated": "PN-somato",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.01774149015545845,
+      "margin": 0.7761998176574707
+    },
+    {
+      "body_id": 1805418,
+      "annotated": "pre-DN-SEZ",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.021048113703727722,
+      "margin": 0.5489129424095154
+    },
+    {
+      "body_id": 14522404,
+      "annotated": "ascending",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.005967125762254,
+      "margin": 0.5034444332122803
+    },
+    {
+      "body_id": 16026677,
+      "annotated": "CN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.014348042197525501,
+      "margin": 0.8744164705276489
+    },
+    {
+      "body_id": 16435325,
+      "annotated": "PN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.026472918689250946,
+      "margin": 0.5680029988288879
+    },
+    {
+      "body_id": 8995807,
+      "annotated": "PN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.020951474085450172,
+      "margin": 0.5687838792800903
+    },
+    {
+      "body_id": 17587734,
+      "annotated": "DN-SEZ",
+      "predicted": "DN-VNC",
+      "p_annotated": 0.092618428170681,
+      "margin": 0.6059674024581909
+    },
+    {
+      "body_id": 13007383,
+      "annotated": "DN-SEZ",
+      "predicted": "DN-VNC",
+      "p_annotated": 0.07987097650766373,
+      "margin": 0.5441418886184692
+    },
+    {
+      "body_id": 17736641,
+      "annotated": "DN-VNC",
+      "predicted": "RGN",
+      "p_annotated": 0.06716146320104599,
+      "margin": 0.586193323135376
+    },
+    {
+      "body_id": 12998937,
+      "annotated": "ascending",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.0010707357432693243,
+      "margin": 0.5652545094490051
+    },
+    {
+      "body_id": 16856617,
+      "annotated": "LN",
+      "predicted": "pre-DN-VNC",
+      "p_annotated": 0.0023679889272898436,
+      "margin": 0.5257174372673035
+    },
+    {
+      "body_id": 12026822,
+      "annotated": "DN-SEZ",
+      "predicted": "DN-VNC",
+      "p_annotated": 0.08766785264015198,
+      "margin": 0.6666499376296997
+    },
+    {
+      "body_id": 18305476,
+      "annotated": "DN-SEZ",
+      "predicted": "DN-VNC",
+      "p_annotated": 0.09796378761529922,
+      "margin": 0.5165233612060547
+    }
+  ],
+  "strict_promotion": false,
+  "caveat": "Historical results and candidate counts were known before this protocol. Same dataset, same node split, no independent new holdout. Gate copied from historical code; cannot establish pre-outcome freezing or strict promotion. Transductive graph and morphology use all nodes; bilateral pairs are not grouped, so pair leakage remains possible. Full-label nomination is descriptive, not held-out validation or confirmed misannotation. Initialization is now seeded before model construction, unlike historical runner. No tuning or retry based on the rerun outcome."
+}
